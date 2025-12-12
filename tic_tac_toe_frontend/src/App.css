@@ -1,12 +1,12 @@
 :root {
   /* Light theme with specified accents */
   --color-primary: #3b82f6;
-  --color-secondary: #64748b;
+  --color-secondary: #64748b; /* standard secondary for light theme */
   --color-success: #06b6d4;
   --color-error: #EF4444;
-  --color-bg: #f9fafb;
+  --color-bg: #fde2e2; /* light pink global background */
   --color-surface: #ffffff;
-  --color-text: #111827;
+  --color-text: #111827; /* dark body text on light background */
 
   --radius-md: 12px;
   --radius-lg: 16px;

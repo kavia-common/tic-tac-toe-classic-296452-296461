@@ -17,6 +17,10 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Light pink background with sufficient text contrast */
+  background-color: #fde2e2; /* soft light pink */
+  color: #111827; /* dark text for contrast on light pink */
 }
 
 code {
