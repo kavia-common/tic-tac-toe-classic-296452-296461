@@ -18,9 +18,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* Dark pink background with readable text */
-  background-color: #861657; /* dark pink */
-  color: #f3f4f6; /* near-white for better contrast on dark pink */
+  /*
+    Global app background (deep yellow).
+    Keep this in index.css so it applies to the entire app consistently.
+  */
+  background-color: #E0B100; /* deep yellow */
+  color: #111827; /* dark text for strong contrast on yellow */
 }
 
 code {
